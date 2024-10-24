@@ -269,7 +269,7 @@ class Calculator extends WindowAdapter implements ActionListener {
         if(e.getSource()==div){
             try {
                 num1 =  Double.parseDouble(l.getText());
-            } catch (NumberFormatException  cal) {
+            } catch (NumberFormatException cal) {
                     l.setText("Invalid Format");
                     return;
                 }
@@ -316,6 +316,6 @@ class Calculator extends WindowAdapter implements ActionListener {
         }
     }
     public static void main(String[] args) {
-        new  Calculator();
+        new Calculator();
     }
 }
